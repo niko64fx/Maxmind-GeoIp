@@ -1,5 +1,5 @@
 {
-    "name": "maxmind/geoip",
+    "name": "ourserverdev/maxmind-geoip",
     "type": "symfony-bundle",
     "description": "MaxMind GeoIP Symfony2 Bundle",
     "keywords": ["maxmind geoip"],
