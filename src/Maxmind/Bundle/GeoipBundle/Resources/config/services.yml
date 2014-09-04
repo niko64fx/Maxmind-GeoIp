@@ -2,4 +2,4 @@
 services:
     maxmind.geoip:
         class:      Maxmind\Bundle\GeoipBundle\Service\GeoipManager
-        arguments:  [@kernel]
+        arguments:  ["%maxmind_geoip_data_file_path%", "%maxmind_geoip_licensekey%"]

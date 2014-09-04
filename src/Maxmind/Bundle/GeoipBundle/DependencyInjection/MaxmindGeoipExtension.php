@@ -23,6 +23,7 @@ class MaxmindGeoipExtension extends Extension
         $config = $this->processConfiguration($configuration, $configs);
 
         $container->setParameter("maxmind_geoip_data_file_path", $config["data_file_path"]);
+        $container->setParameter("maxmind_geoip_licensekey", $config["licensekey"]);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');

@@ -23,6 +23,10 @@
             "name": "Gabriel BONDAZ",
             "email": "gabriel.bondaz@idci-consulting.fr",
             "role": "Developer"
+        },
+        {
+            "name": "Arnaud Janssens",
+            "role": "Developer"
         }
     ],
     "autoload": {
